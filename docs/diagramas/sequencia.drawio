@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" agent="Controle-Livros-Modelagem" version="32.6.10">
+  <diagram id="Sequência de movimentação" name="Sequência de movimentação">
+    <mxGraphModel dx="1970" dy="1900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1970" pageHeight="1900" math="0" shadow="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="v2" value="CONTROLE DE LIVROS USADOS / DOCUMENTAÇÃO TÉCNICA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=14;fontColor=#194e43;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="25" width="1890" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v3" value="Registrar uma movimentação de estoque" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=34;fontColor=#243b35;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="65" width="1890" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="v4" value="Cenário: livro existente · a ação recebe POST, o serviço coordena os repositórios e a transação PDO." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=17;fontColor=#63736c;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="123" width="1890" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="v5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;fillColor=none;strokeColor=#65836f;" vertex="1" parent="1">
+          <mxGeometry x="600" y="920" width="1320" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="v6" value="alt" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;fillColor=#edf2e8;strokeColor=#65836f;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="920" width="70" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" value="" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;dashed=1;strokeColor=#65836f;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="1090" as="sourcePoint" />
+            <mxPoint x="1920" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v8" value="Responsável&lt;br&gt;pelo acervo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;fillColor=#edf2e8;strokeColor=#819d89;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="5" y="205" width="230" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" value="" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;dashed=1;strokeColor=#a6b3a6;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="287" as="sourcePoint" />
+            <mxPoint x="120" y="1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v10" value="«interface»&lt;br&gt;movimentacoes.php" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;fillColor=#edf2e8;strokeColor=#819d89;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="275" y="205" width="230" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" value="" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;dashed=1;strokeColor=#a6b3a6;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="287" as="sourcePoint" />
+            <mxPoint x="390" y="1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v12" value="«ação PHP»&lt;br&gt;registrar-movimentacao.php" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;fillColor=#edf2e8;strokeColor=#819d89;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="565" y="205" width="230" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" value="" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;dashed=1;strokeColor=#a6b3a6;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="287" as="sourcePoint" />
+            <mxPoint x="680" y="1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v14" value="«serviço»&lt;br&gt;AcervoService" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;fillColor=#edf2e8;strokeColor=#819d89;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="875" y="205" width="230" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="e15" value="" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;dashed=1;strokeColor=#a6b3a6;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="990" y="287" as="sourcePoint" />
+            <mxPoint x="990" y="1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v16" value="«acesso a dados»&lt;br&gt;Livro" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;fillColor=#edf2e8;strokeColor=#819d89;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1165" y="205" width="230" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="e17" value="" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;dashed=1;strokeColor=#a6b3a6;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280" y="287" as="sourcePoint" />
+            <mxPoint x="1280" y="1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v18" value="«acesso a dados»&lt;br&gt;Movimentacao" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;fillColor=#edf2e8;strokeColor=#819d89;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1415" y="205" width="230" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="e19" value="" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;dashed=1;strokeColor=#a6b3a6;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1530" y="287" as="sourcePoint" />
+            <mxPoint x="1530" y="1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v20" value="«infraestrutura»&lt;br&gt;PDO / MariaDB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;fillColor=#edf2e8;strokeColor=#819d89;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1695" y="205" width="230" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="e21" value="" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;dashed=1;strokeColor=#a6b3a6;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1810" y="287" as="sourcePoint" />
+            <mxPoint x="1810" y="1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e22" value="1. Preencher e enviar" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="-16" as="offset" />
+            <mxPoint x="120" y="335" as="sourcePoint" />
+            <mxPoint x="390" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e23" value="2. POST + CSRF + campos" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="-16" as="offset" />
+            <mxPoint x="390" y="395" as="sourcePoint" />
+            <mxPoint x="680" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v24" value="protegerPost(); inteiro(livro_id); inteiro(quantidade)&lt;br&gt;Conexão obtida; serviço instanciado." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;shape=note;fillColor=#fbf7e9;strokeColor=#c8b98f;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="560" y="430" width="440" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="e25" value="3. movimentar(id, tipo, quantidade, observacao)" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="-16" as="offset" />
+            <mxPoint x="680" y="540" as="sourcePoint" />
+            <mxPoint x="990" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v26" value="Valida tipo, quantidade e observação&lt;br&gt;antes de iniciar a transação." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;shape=note;fillColor=#fbf7e9;strokeColor=#c8b98f;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="850" y="568" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e27" value="4. beginTransaction()" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="-16" as="offset" />
+            <mxPoint x="990" y="670" as="sourcePoint" />
+            <mxPoint x="1810" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e28" value="5. buscar(id, true)" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="-16" as="offset" />
+            <mxPoint x="990" y="720" as="sourcePoint" />
+            <mxPoint x="1280" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e29" value="6. SELECT ... FOR UPDATE" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="-16" as="offset" />
+            <mxPoint x="1280" y="765" as="sourcePoint" />
+            <mxPoint x="1810" y="765" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e30" value="7. livro e saldo (registro bloqueado)" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="-16" as="offset" />
+            <mxPoint x="1810" y="845" as="sourcePoint" />
+            <mxPoint x="1280" y="845" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e31" value="8. dados do livro" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="-16" as="offset" />
+            <mxPoint x="1280" y="890" as="sourcePoint" />
+            <mxPoint x="990" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v32" value="[tipo = saida e quantidade &gt; saldo]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=19;fontColor=#194e43;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="920" width="730" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="e33" value="9a. rollBack()" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="-16" as="offset" />
+            <mxPoint x="990" y="980" as="sourcePoint" />
+            <mxPoint x="1810" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e34" value="10a. DomainException: estoque insuficiente" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="-16" as="offset" />
+            <mxPoint x="990" y="1030" as="sourcePoint" />
+            <mxPoint x="680" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v35" value="[saldo e limite válidos]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=19;fontColor=#194e43;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="1110" width="700" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="e36" value="9b. definirEstoque(id, novoSaldo)" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="-16" as="offset" />
+            <mxPoint x="990" y="1170" as="sourcePoint" />
+            <mxPoint x="1280" y="1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e37" value="10b. UPDATE livros SET estoque = ..." style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="-16" as="offset" />
+            <mxPoint x="1280" y="1220" as="sourcePoint" />
+            <mxPoint x="1810" y="1220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e38" value="11b. registrar(id, tipo, quantidade, observacao)" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="-16" as="offset" />
+            <mxPoint x="990" y="1295" as="sourcePoint" />
+            <mxPoint x="1530" y="1295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e39" value="12b. INSERT INTO movimentacoes (...)" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="-16" as="offset" />
+            <mxPoint x="1530" y="1350" as="sourcePoint" />
+            <mxPoint x="1810" y="1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e40" value="13b. commit()" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="-16" as="offset" />
+            <mxPoint x="990" y="1425" as="sourcePoint" />
+            <mxPoint x="1810" y="1425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e41" value="14b. retorno void" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="-16" as="offset" />
+            <mxPoint x="990" y="1485" as="sourcePoint" />
+            <mxPoint x="680" y="1485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v42" value="A ação trata exceção de domínio ou sucesso e prepara a mensagem correspondente." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=17;fontColor=#63736c;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1545" width="1210" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="e43" value="15. mensagem na sessão + Location (303)" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="-16" as="offset" />
+            <mxPoint x="680" y="1650" as="sourcePoint" />
+            <mxPoint x="390" y="1650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e44" value="16. Após GET, exibir saldo / histórico ou validação" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="-16" as="offset" />
+            <mxPoint x="390" y="1720" as="sourcePoint" />
+            <mxPoint x="120" y="1720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v45" value="Observações de fidelidade ao código&lt;br&gt;403/405 encerram a ação antes do serviço. Campos inválidos são rejeitados antes da transação.&lt;br&gt;Livro ausente, overflow ou erro SQL dentro da transação também causam rollback; o cenário alternativo detalhado é o de estoque insuficiente.&lt;br&gt;O navegador segue o 303 para public/movimentacoes.php?livro_id=...; a mensagem não faz parte da transação SQL." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;fillColor=#f6f8f3;strokeColor=#dce4da;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1790" width="1890" height="95" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" agent="Controle-Livros-Modelagem" version="32.6.10">
+  <diagram id="Catálogo" name="Catálogo">
+    <mxGraphModel dx="1460" dy="1270" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1460" pageHeight="1270" math="0" shadow="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="v2" value="PROTÓTIPO / MODELAGEM DA INTERFACE — NÃO É CAPTURA DA APLICAÇÃO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=15;fontColor=#194e43;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="1380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;rounded=1;arcSize=2;fillColor=#f7f8f4;strokeColor=#bacbbd;" vertex="1" parent="1">
+          <mxGeometry x="30" y="70" width="1400" height="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="v4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;fillColor=#ffffff;strokeColor=#dce4da;" vertex="1" parent="1">
+          <mxGeometry x="30" y="70" width="1400" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="v5" value="L" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;rounded=1;arcSize=15;fillColor=#194e43;fontColor=#ffffff;fontSize=28;strokeColor=none;fontFamily=Georgia;" vertex="1" parent="1">
+          <mxGeometry x="65" y="95" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v6" value="livros usados" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=26;fontColor=#243b35;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="95" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v7" value="CONTROLE DO ACERVO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=11;fontColor=#63736c;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="127" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="v8" value="Catálogo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=17;fontColor=#194e43;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="108" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" value="" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;strokeColor=#194e43;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="168" as="sourcePoint" />
+            <mxPoint x="660" y="168" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v10" value="Cadastrar livro" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=17;fontColor=#63736c;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="108" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v11" value="Movimentações" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=17;fontColor=#63736c;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="108" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v12" value="Acervo local" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=14;fontColor=#63736c;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="110" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v13" value="Catálogo de livros." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=43;fontColor=#243b35;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="210" width="1150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v14" value="Consulte os títulos e acompanhe cada exemplar do seu acervo." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=18;fontColor=#63736c;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="278" width="1250" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="v15" value="Sistema de Controle de Livros Usados" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=14;fontColor=#63736c;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1132" width="700" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v16" value="Um novo capítulo para cada exemplar." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=14;fontColor=#63736c;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1132" width="450" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v17" value="＋ Cadastrar livro" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;rounded=1;arcSize=12;fillColor=#194e43;fontColor=#ffffff;strokeColor=#194e43;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="220" width="250" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="v18" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;rounded=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="70" y="355" width="420" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="v19" value="Títulos no acervo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;fontColor=#63736c;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="95" y="375" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v20" value="〈total〉" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=30;fontColor=#243b35;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="95" y="415" width="370" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v21" value="Livros cadastrados" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontColor=#63736c;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="95" y="478" width="370" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="v22" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;rounded=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="515" y="355" width="420" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="v23" value="Exemplares disponíveis" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;fontColor=#63736c;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="375" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v24" value="〈soma do saldo〉" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=30;fontColor=#243b35;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="415" width="370" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v25" value="Soma das quantidades em estoque" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontColor=#63736c;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="478" width="370" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="v26" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;rounded=1;arcSize=8;fillColor=#edf2e8;" vertex="1" parent="1">
+          <mxGeometry x="960" y="355" width="420" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="v27" value="Títulos com estoque" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;fontColor=#63736c;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="985" y="375" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v28" value="〈total com saldo〉" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=30;fontColor=#243b35;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="985" y="415" width="370" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v29" value="Com pelo menos um exemplar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontColor=#63736c;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="985" y="478" width="370" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="v30" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;rounded=1;arcSize=3;" vertex="1" parent="1">
+          <mxGeometry x="70" y="560" width="1310" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="v31" value="Seu catálogo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=24;fontColor=#243b35;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="580" width="410" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="v32" value="Encontre o próximo livro em poucos segundos." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=15;fontColor=#63736c;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="95" y="625" width="520" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v33" value="Título, autor ou ISBN" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;rounded=1;arcSize=9;align=left;spacingLeft=12;fontColor=#63736c;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="775" y="585" width="365" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="v34" value="Pesquisar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;rounded=1;arcSize=12;fillColor=#194e43;fontColor=#ffffff;strokeColor=#194e43;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="585" width="195" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="v35" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;fillColor=#f6f8f3;strokeColor=#dce4da;" vertex="1" parent="1">
+          <mxGeometry x="70" y="690" width="1310" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="v36" value="LIVRO / AUTOR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontColor=#63736c;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="710" width="380" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v37" value="CATEGORIA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontColor=#63736c;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="710" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v38" value="PREÇO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontColor=#63736c;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="710" width="150" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v39" value="DISPONIBILIDADE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontColor=#63736c;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="915" y="710" width="205" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v40" value="AÇÕES" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=13;fontColor=#63736c;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="710" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v41" value="〈título do banco〉&lt;br&gt;〈autor〉&lt;br&gt;ISBN 〈ISBN, se informado〉" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=19;fontColor=#243b35;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="95" y="785" width="380" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="v42" value="〈categoria〉" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=17;fontColor=#243b35;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="800" width="200" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="v43" value="R$ 〈preço〉" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=17;fontColor=#243b35;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="800" width="155" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="v44" value="〈saldo〉 exemplar(es)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;fontColor=#194e43;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="915" y="800" width="220" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="v45" value="Editar   Movimentar ↗" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;fontColor=#194e43;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="800" width="210" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="e46" value="" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;strokeColor=#dce4da;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="915" as="sourcePoint" />
+            <mxPoint x="1380" y="915" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v47" value="〈quantidade de títulos〉 no catálogo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;fontColor=#63736c;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="95" y="950" width="1150" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="v48" value="Anotações: os marcadores 〈 〉 representam dados do banco. Busca usa GET; estados vazios e “Limpar pesquisa” são condicionais." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=16;fontColor=#63736c;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1200" width="1360" height="55" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

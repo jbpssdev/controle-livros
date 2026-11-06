@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" agent="Controle-Livros-Modelagem" version="32.6.10">
+  <diagram id="Classes" name="Classes">
+    <mxGraphModel dx="1860" dy="1260" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1860" pageHeight="1260" math="0" shadow="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="v2" value="CONTROLE DE LIVROS USADOS / DOCUMENTAÇÃO TÉCNICA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=14;fontColor=#194e43;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="25" width="1780" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v3" value="Classes PHP e dependências" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=34;fontColor=#243b35;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="65" width="1780" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="v4" value="Visibilidades e assinaturas reais. Os atributos do banco não são propriedades dessas classes." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=17;fontColor=#63736c;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="123" width="1780" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="v5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;strokeColor=#6e8e7a;" vertex="1" parent="1">
+          <mxGeometry x="40" y="210" width="510" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="v6" value="&lt;b&gt;Database&lt;/b&gt; {leaf}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;fillColor=#edf2e8;strokeColor=#6e8e7a;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="40" y="210" width="510" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v7" value="Sem atributos declarados" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=18;fontColor=#243b35;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="58" y="270" width="474" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" value="" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;strokeColor=#6e8e7a;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="322" as="sourcePoint" />
+            <mxPoint x="550" y="322" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v9" value="&lt;u&gt;+ conectar(config: ?array = null): PDO&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=17;fontColor=#243b35;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="58" y="332" width="474" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="v10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;strokeColor=#6e8e7a;" vertex="1" parent="1">
+          <mxGeometry x="680" y="210" width="1140" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="v11" value="&lt;b&gt;AcervoService&lt;/b&gt; {leaf}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;fillColor=#edf2e8;strokeColor=#6e8e7a;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="680" y="210" width="1140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v12" value="- pdo: PDO&lt;br&gt;- livros: Livro&lt;br&gt;- categorias: Categoria&lt;br&gt;- movimentacoes: Movimentacao" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=18;fontColor=#243b35;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="698" y="270" width="1104" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" value="" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;strokeColor=#6e8e7a;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="392" as="sourcePoint" />
+            <mxPoint x="1820" y="392" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v14" value="+ __construct(pdo: PDO)&lt;br&gt;- validarDados(dados: array): array&lt;br&gt;+ cadastrarLivro(dados: array, estoqueInicial: int): int&lt;br&gt;+ atualizarLivro(id: int, dados: array): void&lt;br&gt;+ movimentar(livroId: int, tipo: string, quantidade: int,&lt;br&gt;  observacao: ?string): void" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=17;fontColor=#243b35;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="698" y="402" width="1104" height="258" as="geometry" />
+        </mxCell>
+        <mxCell id="v15" value="«biblioteca PHP»&lt;br&gt;&lt;b&gt;PDO&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;fillColor=#f6f7f3;dashed=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="120" y="480" width="330" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="e16" value="cria" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="-16" as="offset" />
+            <mxPoint x="295" y="405" as="sourcePoint" />
+            <mxPoint x="295" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;strokeColor=#6e8e7a;" vertex="1" parent="1">
+          <mxGeometry x="40" y="840" width="650" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="v18" value="&lt;b&gt;Livro&lt;/b&gt; {leaf}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;fillColor=#edf2e8;strokeColor=#6e8e7a;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="40" y="840" width="650" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v19" value="- pdo: PDO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=18;fontColor=#243b35;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="58" y="900" width="614" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="e20" value="" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;strokeColor=#6e8e7a;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="952" as="sourcePoint" />
+            <mxPoint x="690" y="952" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v21" value="+ __construct(pdo: PDO)&lt;br&gt;+ listar(busca: string = &amp;#x27;&amp;#x27;): array&lt;br&gt;+ buscar(id: int, bloquear: bool = false): ?array&lt;br&gt;+ cadastrar(dados: array): int&lt;br&gt;+ atualizar(id: int, dados: array): void&lt;br&gt;+ definirEstoque(id: int, estoque: int): void" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=17;fontColor=#243b35;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="58" y="962" width="614" height="208" as="geometry" />
+        </mxCell>
+        <mxCell id="v22" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;strokeColor=#6e8e7a;" vertex="1" parent="1">
+          <mxGeometry x="740" y="840" width="400" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="v23" value="&lt;b&gt;Categoria&lt;/b&gt; {leaf}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;fillColor=#edf2e8;strokeColor=#6e8e7a;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="740" y="840" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v24" value="- pdo: PDO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=18;fontColor=#243b35;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="758" y="900" width="364" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="e25" value="" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;strokeColor=#6e8e7a;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="952" as="sourcePoint" />
+            <mxPoint x="1140" y="952" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v26" value="+ __construct(pdo: PDO)&lt;br&gt;+ listar(): array&lt;br&gt;+ existe(id: int): bool" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=17;fontColor=#243b35;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="758" y="962" width="364" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="v27" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;strokeColor=#6e8e7a;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="840" width="630" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="v28" value="&lt;b&gt;Movimentacao&lt;/b&gt; {leaf}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;fillColor=#edf2e8;strokeColor=#6e8e7a;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="840" width="630" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v29" value="- pdo: PDO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=18;fontColor=#243b35;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1208" y="900" width="594" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="e30" value="" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;strokeColor=#6e8e7a;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1190" y="952" as="sourcePoint" />
+            <mxPoint x="1820" y="952" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v31" value="+ __construct(pdo: PDO)&lt;br&gt;+ listar(livroId: ?int = null): array&lt;br&gt;+ registrar(livroId: int, tipo: string,&lt;br&gt;  quantidade: int, observacao: ?string): void" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=17;fontColor=#243b35;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1208" y="962" width="594" height="178" as="geometry" />
+        </mxCell>
+        <mxCell id="e32" value="cria / utiliza" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="-16" as="offset" />
+            <mxPoint x="850" y="670" as="sourcePoint" />
+            <mxPoint x="365" y="840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="850" y="740" />
+              <mxPoint x="365" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e33" value="cria / utiliza" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="-16" as="offset" />
+            <mxPoint x="1100" y="670" as="sourcePoint" />
+            <mxPoint x="940" y="840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1100" y="740" />
+              <mxPoint x="940" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e34" value="cria / utiliza" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="-16" as="offset" />
+            <mxPoint x="1510" y="670" as="sourcePoint" />
+            <mxPoint x="1505" y="840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1510" y="740" />
+              <mxPoint x="1505" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v35" value="− privado · + público · sublinhado: estático · {leaf}: classe final no PHP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacing=0;fontSize=17;fontColor=#63736c;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1210" width="1780" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="v36" value="Livro, Categoria, Movimentacao e AcervoService recebem o mesmo PDO por construtor.&lt;br&gt;src/bootstrap.php contém funções livres; não é uma classe." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=17;fontColor=#63736c;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="630" width="555" height="125" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

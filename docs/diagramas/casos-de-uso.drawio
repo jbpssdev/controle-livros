@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" agent="Controle-Livros-Modelagem" version="32.6.10">
+  <diagram id="Casos de uso" name="Casos de uso">
+    <mxGraphModel dx="1420" dy="1090" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1420" pageHeight="1090" math="0" shadow="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="v2" value="CONTROLE DE LIVROS USADOS / DOCUMENTAÇÃO TÉCNICA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=14;fontColor=#194e43;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="25" width="1340" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v3" value="Casos de uso" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=34;fontColor=#243b35;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="65" width="1340" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="v4" value="Papel de operação local; não existe autenticação ou gestão de usuários." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=17;fontColor=#63736c;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="123" width="1340" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="v5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;fillColor=#f9fbf7;strokeColor=#93aa9b;" vertex="1" parent="1">
+          <mxGeometry x="340" y="200" width="1020" height="770" as="geometry" />
+        </mxCell>
+        <mxCell id="v6" value="Sistema de Controle de Livros Usados" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacing=0;fontSize=23;fontColor=#194e43;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="215" width="930" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v7" value="Responsável&lt;br&gt;pelo acervo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#ffffff;strokeColor=#194e43;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="65" y="450" width="160" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="v8" value="CU01 · Cadastrar livro" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;ellipse;fillColor=#ffffff;strokeColor=#668e7a;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="600" y="290" width="590" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" value="" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="535" as="sourcePoint" />
+            <mxPoint x="600" y="334" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v10" value="CU02 · Consultar e pesquisar livros" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;ellipse;fillColor=#ffffff;strokeColor=#668e7a;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="600" y="417" width="590" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" value="" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="535" as="sourcePoint" />
+            <mxPoint x="600" y="461" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v12" value="CU03 · Editar livro" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;ellipse;fillColor=#ffffff;strokeColor=#668e7a;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="600" y="544" width="590" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" value="" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="535" as="sourcePoint" />
+            <mxPoint x="600" y="588" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v14" value="CU04 · Registrar movimentação" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;ellipse;fillColor=#ffffff;strokeColor=#668e7a;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="600" y="671" width="590" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="e15" value="" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="535" as="sourcePoint" />
+            <mxPoint x="600" y="715" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v16" value="CU05 · Consultar histórico" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;ellipse;fillColor=#ffffff;strokeColor=#668e7a;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="600" y="798" width="590" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="e17" value="" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="535" as="sourcePoint" />
+            <mxPoint x="600" y="842" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v18" value="Associação simples entre ator e operação. Sem relações include/extend não implementadas." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacing=0;fontSize=16;fontColor=#63736c;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1005" width="1320" height="35" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

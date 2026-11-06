@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" agent="Controle-Livros-Modelagem" version="32.6.10">
+  <diagram id="MER" name="MER">
+    <mxGraphModel dx="2010" dy="980" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2010" pageHeight="980" math="0" shadow="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="v2" value="CONTROLE DE LIVROS USADOS / DOCUMENTAÇÃO TÉCNICA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=14;fontColor=#194e43;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="25" width="1930" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v3" value="Modelo entidade-relacionamento" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=34;fontColor=#243b35;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="65" width="1930" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="v4" value="Modelo lógico derivado de sql/estrutura.sql · InnoDB · utf8mb4_unicode_ci · 3 tabelas / 17 colunas" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=17;fontColor=#63736c;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="123" width="1930" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="v5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;strokeColor=#75917f;" vertex="1" parent="1">
+          <mxGeometry x="40" y="300" width="440" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="v6" value="&lt;b&gt;categorias&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;fillColor=#edf2e8;strokeColor=#75917f;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="40" y="300" width="440" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="v7" value="PK  id : INT AUTO_INCREMENT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=19;fontColor=#243b35;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="58" y="364" width="404" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="v8" value="UQ nome : VARCHAR(100) NOT NULL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=19;fontColor=#243b35;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="58" y="407" width="404" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="v9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;strokeColor=#75917f;" vertex="1" parent="1">
+          <mxGeometry x="650" y="230" width="580" height="453" as="geometry" />
+        </mxCell>
+        <mxCell id="v10" value="&lt;b&gt;livros&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;fillColor=#edf2e8;strokeColor=#75917f;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="650" y="230" width="580" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="v11" value="PK  id : INT AUTO_INCREMENT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=19;fontColor=#243b35;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="668" y="294" width="544" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="v12" value="FK  categoria_id : INT NOT NULL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=19;fontColor=#243b35;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="668" y="337" width="544" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="v13" value="titulo : VARCHAR(200) NOT NULL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=19;fontColor=#243b35;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="668" y="380" width="544" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="v14" value="autor : VARCHAR(150) NOT NULL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=19;fontColor=#243b35;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="668" y="423" width="544" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="v15" value="isbn : VARCHAR(20) NULL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=19;fontColor=#243b35;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="668" y="466" width="544" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="v16" value="preco : DECIMAL(10,2) DEFAULT 0.00" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=19;fontColor=#243b35;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="668" y="509" width="544" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="v17" value="estoque : INT DEFAULT 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=19;fontColor=#243b35;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="668" y="552" width="544" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="v18" value="criado_em : DATETIME DEFAULT CURRENT_TIMESTAMP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=19;fontColor=#243b35;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="668" y="595" width="544" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="v19" value="atualizado_em : DATETIME DEFAULT CURRENT_TIMESTAMP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=19;fontColor=#243b35;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="668" y="638" width="544" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="v20" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;strokeColor=#75917f;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="300" width="580" height="324" as="geometry" />
+        </mxCell>
+        <mxCell id="v21" value="&lt;b&gt;movimentacoes&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;fillColor=#edf2e8;strokeColor=#75917f;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="300" width="580" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="v22" value="PK  id : INT AUTO_INCREMENT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=19;fontColor=#243b35;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1408" y="364" width="544" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="v23" value="FK  livro_id : INT NOT NULL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=19;fontColor=#243b35;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1408" y="407" width="544" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="v24" value="tipo : ENUM(&amp;#x27;entrada&amp;#x27;, &amp;#x27;saida&amp;#x27;)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=19;fontColor=#243b35;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1408" y="450" width="544" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="v25" value="quantidade : INT NOT NULL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=19;fontColor=#243b35;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1408" y="493" width="544" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="v26" value="observacao : VARCHAR(255) NULL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=19;fontColor=#243b35;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1408" y="536" width="544" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="v27" value="criado_em : DATETIME DEFAULT CURRENT_TIMESTAMP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=19;fontColor=#243b35;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1408" y="579" width="544" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="e28" value="possui" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="-16" as="offset" />
+            <mxPoint x="480" y="380" as="sourcePoint" />
+            <mxPoint x="650" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v29" value="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=18;fontColor=#194e43;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="492" y="400" width="40" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v30" value="0..*" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=18;fontColor=#194e43;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="400" width="50" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="e31" value="registra" style="html=1;rounded=0;endArrow=none;strokeColor=#243b35;strokeWidth=1.5;fontFamily=Arial;fontSize=17;labelBackgroundColor=#ffffff;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="-16" as="offset" />
+            <mxPoint x="1230" y="425" as="sourcePoint" />
+            <mxPoint x="1390" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v32" value="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=18;fontColor=#194e43;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="445" width="40" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v33" value="0..*" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=18;fontColor=#194e43;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1325" y="445" width="55" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="v34" value="PK = chave primária · FK = chave estrangeira · UQ = único&lt;br&gt;Em livros e movimentacoes, as colunas sem indicação NULL são NOT NULL.&lt;br&gt;FKs: ON UPDATE RESTRICT / ON DELETE RESTRICT." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;fillColor=#f6f8f3;strokeColor=#dce4da;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="40" y="760" width="1930" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="v35" value="CHECK: título/autor não vazios; preço ≥ 0; estoque ≥ 0; quantidade &gt; 0; tipo permitido.&lt;br&gt;atualizado_em: ON UPDATE CURRENT_TIMESTAMP. Detalhes de índices e limites: dicionario-dados.md." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dce4da;fontColor=#243b35;fontFamily=Arial;fontSize=18;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacing=0;fontSize=18;fontColor=#63736c;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="875" width="1930" height="65" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

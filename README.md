@@ -71,11 +71,20 @@ controle-livros/
 │   ├── estrutura.sql
 │   └── exemplos.sql
 ├── docs/
-│   ├── diagramas/.gitkeep
-│   └── evidencias/.gitkeep
-└── tests/
-    ├── check-env.php
-    └── plano-testes.md
+│   ├── README.md                   # índice dos materiais técnicos
+│   ├── requisitos/                 # RFs, RNFs e casos de uso
+│   ├── diagramas/                  # UML/MER: quatro drawio e quatro PNGs
+│   ├── modelagem/                  # dicionário das 17 colunas
+│   ├── prototipos/                 # quatro modelos editáveis e exportados
+│   ├── codigo/                     # fluxos e trechos reais de PHP/SQL
+│   ├── testes/                     # matriz manual e registro automático
+│   ├── evidencias/                 # instruções; capturas reais futuras
+│   └── relatorio/                  # roteiro, sem relatório acadêmico pronto
+├── scripts/                       # verificação, exportação e pacotes
+├── tests/
+│   ├── check-env.php
+│   └── plano-testes.md
+└── dist/                          # ZIPs, manifestos e verificações; ignorado no Git
 ```
 
 ## Funcionalidades e regras
@@ -121,3 +130,50 @@ Em seguida, execute os cenários de `tests/plano-testes.md`, incluindo duas sess
 ## Controle de versão
 
 Antes de adicionar arquivos, confira `git status --ignored` e confirme que `config/database.php` aparece ignorado. Não publique credenciais nem evidências com dados pessoais. Nenhum push, publicação ou deploy é necessário para executar o sistema.
+
+## Documentação técnica e modelagem
+
+O [índice documental](docs/README.md) reúne requisitos, cinco casos de uso, UML de classes, MER, sequência transacional, dicionário de dados, quatro protótipos, documentação de funcionalidades e orientações para o relatório. Os desenhos refletem as classes, métodos e tabelas reais. Os PNGs foram renderizados pelo draw.io Desktop com o modelo editável embutido; **protótipos não são capturas de execução**.
+
+A [matriz complementar](docs/testes/matriz-testes.md) contém 15 casos com resultados manuais pendentes. O [plano original](tests/plano-testes.md) foi preservado: CT07/CT08 têm numeração diferente na nova matriz, conforme a correspondência documentada. Consulte o [registro de verificações realmente executadas](docs/testes/verificacoes-executadas.md) para não confundir inspeção/lint com teste funcional.
+
+As 12 capturas reais previstas devem ser produzidas posteriormente conforme [INSTRUCOES.md](docs/evidencias/INSTRUCOES.md). Não existem evidências de navegador fabricadas. O [roteiro do relatório](docs/relatorio/roteiro-preenchimento.md) orienta o estudante a relatar suas decisões, experiências e resultados; o modelo oficial do AVA ainda precisa ser fornecido/conferido.
+
+## Verificação e distribuição
+
+Na raiz, pelo PowerShell (os comandos abaixo utilizam `pwsh`):
+
+```powershell
+pwsh -NoProfile -File .\scripts\verificar-projeto.ps1
+pwsh -NoProfile -File .\scripts\gerar-pacotes.ps1
+```
+
+Depois de gerar os pacotes, `pwsh -NoProfile -File .\scripts\testar-validadores.ps1` executa ensaios do scanner, da comparação PNG/editável (em cópia extraída) e do estado não verificado quando o PHP está ausente. A fonte original e o banco não são alterados.
+
+Se o PHP estiver em outro caminho, acrescente `-PhpPath 'C:\caminho\php.exe'`. O verificador inspeciona a árvore, os links locais, assinaturas e rastreabilidade estrutural, sintaxe PHP/PowerShell, tipos/colunas do dicionário, seleção de arquivos, padrões reconhecíveis de credenciais e as oito imagens com XML embutido. Itens não automatizados são marcados **NAO_VERIFICADO**. Não executa ações da aplicação nem abre conexão com o banco.
+
+Os pacotes são gerados em `dist/controle-livros-projeto.zip` e `dist/controle-livros-documentacao.zip`, com arquivos diretamente na raiz, sem duplicar a pasta principal. Cada um contém `MANIFESTO-SHA256.csv`; manifestos externos, hashes SHA-256 e resumo `pacotes.json` também ficam em `dist/`. O manifesto lista todos os arquivos de conteúdo, exceto ele próprio. O script confere os bytes descompactados e realiza uma extração real para comparar hashes.
+
+São excluídos `.git`, `.runtime`, `dist`, `.env`, a configuração privada, temporários, ZIPs aninhados e SQL não autorizado. O pacote documental contém docs, plano de testes e scripts; links ao código devem ser consultados no pacote completo/repositório. As capturas reais que forem adicionadas depois entram nos pacotes ao regenerá-los, após revisão humana. O scanner textual não audita informações particulares em imagens.
+
+`dist/` e `.runtime/` não devem ser copiados para o servidor local. `dist/` é ignorado no Git; `docs/evidencias/INSTRUCOES.md` é versionável e as capturas continuam ignoradas por padrão.
+
+Para editar/exportar diagramas, consulte [LEITURA.md](docs/diagramas/LEITURA.md). Somente a manutenção dos desenhos usa draw.io Desktop; o gerador original opcional usa Python 3 e biblioteca padrão. **A aplicação continua sem dependência dessas ferramentas.** Após editar um `.drawio`, reexporte os PNGs antes de verificar/empacotar. Não reexecute o gerador se quiser preservar edições manuais nos modelos.
+
+## Revisar e publicar a complementação
+
+Nenhum commit ou push é feito pelos scripts. Revise antes de publicar:
+
+```powershell
+git status --short
+git diff --check
+git diff -- README.md .gitignore
+git add -- README.md .gitignore docs scripts
+git diff --cached --stat
+git diff --cached --check
+git status --short
+git commit -m "Documenta requisitos, modelagem e validacao do projeto"
+git push origin main
+```
+
+Confirme que somente os arquivos desejados estão preparados e que ZIPs, runtime e configuração local estão ausentes do commit. Esses comandos usam o repositório existente e não reescrevem o histórico.
