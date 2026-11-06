@@ -1,0 +1,7 @@
+/config/database.php
+/.runtime/
+/docs/evidencias/*
+!/docs/evidencias/.gitkeep
+*.log
+.DS_Store
+Thumbs.db
