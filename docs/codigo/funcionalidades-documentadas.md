@@ -1,6 +1,6 @@
 # Funcionalidades documentadas a partir do código
 
-Os trechos abaixo foram extraídos dos arquivos existentes, sem alterar a aplicação. A descrição separa interface, ação HTTP, regra de negócio e persistência. Consulte também [requisitos](../requisitos/requisitos-funcionais.md), [classes](../diagramas/classes.png) e [dicionário](../modelagem/dicionario-dados.md).
+Esta seção explica o cadastro, a consulta e a movimentação de livros a partir do código do projeto. Consulte também [requisitos](../requisitos/requisitos-funcionais.md), [classes](../diagramas/classes.png) e [dicionário](../modelagem/dicionario-dados.md).
 
 ## 1. Cadastro de livro — RF01 / CU01
 
@@ -28,7 +28,7 @@ try {
     redirecionar('../index.php');
 ```
 
-`protegerPost()` encerra métodos diferentes de POST com 405 e tokens inválidos com 403. `dadosLivro()` limita os campos cadastrais aceitos. O inteiro do estoque aceita zero. As exceções de domínio são tratadas como validação; exceções técnicas recebem mensagem genérica. Após rejeição de domínio/técnica, a ação guarda os valores conhecidos e redireciona ao formulário. Não é a classe de persistência que monta HTML ou mensagens de sessão.
+`protegerPost()` encerra métodos diferentes de POST com 405 e tokens inválidos com 403. `dadosLivro()` limita os campos cadastrais aceitos. O inteiro do estoque aceita zero. As exceções de domínio são tratadas como validação; exceções técnicas recebem mensagem genérica. Após rejeição de domínio/técnica, a ação guarda os valores conhecidos e redireciona ao formulário.
 
 ### Cadastro e entrada inicial na mesma transação
 
@@ -66,7 +66,7 @@ Consultas relevantes: `SELECT 1 FROM categorias WHERE id = :id`; o INSERT acima;
 
 ### Saída e validação
 
-Sucesso redireciona com HTTP 303 para o catálogo. A renderização aplica `e()` aos dados, inclusive aos valores preservados após validação. O código não estabelece idempotência para duplo envio simultâneo: PRG evita que uma simples recarga do GET repita o POST, mas não substitui uma chave de idempotência.
+Sucesso redireciona com HTTP 303 para o catálogo. A renderização aplica `e()` aos dados, inclusive aos valores preservados após validação. O redirecionamento evita repetir o envio ao atualizar a página. Um novo envio do formulário ainda pode gerar outro cadastro.
 
 ## 2. Consulta e pesquisa de livros — RF02 / CU02
 
@@ -103,7 +103,7 @@ Trecho real da tabela de catálogo:
 <strong class="book-title"><?= e($livro['titulo']) ?></strong>
 ```
 
-O fragmento está no interior de uma linha maior do arquivo; seu conteúdo é o mesmo. A função real responsável por escapar o valor, em `src/bootstrap.php`, é:
+A função `e()`, definida em `src/bootstrap.php`, prepara o valor para exibição no HTML:
 
 ```php
 function e(mixed $valor): string
@@ -112,7 +112,7 @@ function e(mixed $valor): string
 }
 ```
 
-O título que contenha marcação é exibido como texto no contexto HTML. Isso não é uma regra para concatenar valores em qualquer linguagem; para SQL são usados os parâmetros PDO.
+O título que contenha marcação é exibido como texto no contexto HTML. Nas consultas SQL, os valores são enviados por parâmetros PDO.
 
 Sem resultado, a página apresenta “Nenhum livro encontrado”. Sem cadastro, apresenta “Seu acervo começa aqui”. Em indisponibilidade técnica, a página retorna 503 e mensagem genérica, sem imprimir a exceção.
 

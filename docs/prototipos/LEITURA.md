@@ -1,6 +1,6 @@
-# Protótipos das quatro páginas
+# Protótipos das telas
 
-Estes são modelos editáveis baseados no HTML/CSS existente. **Não são capturas do sistema funcionando** e não podem preencher a pasta de evidências. Os marcadores `〈...〉` representam dados vindos do banco; valores padrão zero e um reproduzem os valores iniciais dos formulários, não registros do acervo.
+Os desenhos representam as quatro páginas do sistema. Os marcadores `〈...〉` indicam campos preenchidos com dados do banco. As capturas dos testes ficam em [evidências](../evidencias/INSTRUCOES.md).
 
 | Figura | Arquivos | Finalidade, campos e ações reais |
 | --- | --- | --- |
@@ -13,7 +13,7 @@ Estes são modelos editáveis baseados no HTML/CSS existente. **Não são captur
 
 Fontes: [catálogo](../../public/index.php), [cadastro](../../public/novo-livro.php), [edição](../../public/editar-livro.php), [movimentações](../../public/movimentacoes.php), [cabeçalho](../../layouts/header.php) e [CSS](../../assets/css/style.css). A paleta verde/papel, a hierarquia de títulos, a navegação e a organização em painéis seguem a interface implementada. Os textos auxiliares foram abreviados em alguns pontos para permitir leitura do modelo; campos e ações são os reais.
 
-Os modelos mostram o arranjo de desktop. Em telas pequenas, a implementação reorganiza colunas, empilha cartões de resumo e permite rolagem horizontal das tabelas. Isso deve ser conferido na aplicação, não inferido apenas destes desenhos.
+Os modelos mostram o arranjo de desktop. Em telas pequenas, a implementação reorganiza colunas, empilha cartões de resumo e permite rolagem horizontal das tabelas. Confira esse comportamento nos testes de interface.
 
 ## Estados condicionais que devem ser conferidos na aplicação
 
@@ -21,6 +21,6 @@ Os modelos mostram o arranjo de desktop. Em telas pequenas, a implementação re
 - Cadastro sem categorias desabilita campos e orienta importar a estrutura. Mensagens de validação/sucesso são temporárias, não textos fixos no protótipo.
 - ID de edição inexistente produz 404 e não exibe formulário válido.
 - Sem livros, a movimentação é desabilitada. Filtro específico oferece Ver todos os livros. Sem histórico, aparece estado vazio.
-- A saída acima do saldo é rejeitada pelo servidor. O protótipo não simula uma retirada nem comprova a regra.
+- A saída acima do saldo é rejeitada pelo servidor.
 
 Para editar e exportar, siga [a instrução comum dos diagramas](../diagramas/LEITURA.md). Para evidências reais, siga [o checklist separado](../evidencias/INSTRUCOES.md).

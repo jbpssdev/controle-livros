@@ -1,8 +1,8 @@
-# Matriz de testes do projeto integrado
+# Matriz de testes
 
-Esta matriz complementa o [plano original](../../tests/plano-testes.md), sem substituí-lo. **Os CTs abaixo são identificadores locais desta matriz**. O CT07 original trata saída/quantidades; o CT08 original trata edição. Aqui, CT07 é edição e CT08 é histórico, conforme a tarefa documental. A correspondência está registrada em cada caso para evitar troca de evidências.
+Execute os casos em uma instalação de estudo, com o banco preparado. Registre a data, o ambiente e os resultados observados. Os campos de resultado e evidência estão em branco, e o status permanece pendente até a execução.
 
-Preparação comum: usar uma instalação de estudo identificada, com estrutura importada, categoria disponível e navegador. Dados sugeridos abaixo são **entradas planejadas para teste**, não registros existentes nem resultados. Anotar data, versões, operador e base utilizada no momento da execução. Nunca executar falhas induzidas no acervo de uso real. Resultado obtido e evidência correspondente permanecem em branco; status inicial é pendente, sem aprovação presumida.
+Esta matriz e o [plano de testes](../../tests/plano-testes.md) usam numeração própria. A correspondência está indicada em cada caso: aqui CT07 é edição e CT08 é consulta do histórico.
 
 ## CT01 — Cadastro válido
 

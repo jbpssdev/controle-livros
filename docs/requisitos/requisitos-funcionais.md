@@ -1,6 +1,6 @@
 # Requisitos funcionais
 
-Fonte: código do projeto, especialmente [AcervoService.php](../../src/AcervoService.php), [Livro.php](../../src/Livro.php), [Movimentacao.php](../../src/Movimentacao.php) e [estrutura.sql](../../sql/estrutura.sql). Os requisitos abaixo descrevem funcionalidades implementadas; sua aceitação manual deve ser registrada na [matriz de testes](../testes/matriz-testes.md).
+As funcionalidades abaixo correspondem às páginas e classes do projeto. A [matriz de testes](../testes/matriz-testes.md) apresenta os casos para verificar cada requisito.
 
 ## RF01 — Cadastrar livros
 
